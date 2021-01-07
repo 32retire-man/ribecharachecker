@@ -24,7 +24,7 @@ jQuery(function($) {
       if (ans[p] === 'A1') {
         goma += 20;
       } else if (ans[p] === 'A2') {
-        ikuma += 10;
+        ikuma += 11;
         yoshiharu += 10;
       } else if (ans[p] === 'A3') {
         ikuma += 20;
