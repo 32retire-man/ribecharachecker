@@ -38,7 +38,7 @@ jQuery(function($) {
         goma += 18;
       } else if (ans[p] === 'C2') {
         ikuma += 5;
-        yoshiharu += 15;
+        yoshiharu += 17;
       } else if (ans[p] === 'C3') {
         goma += 100;
         ikuma += 100;
@@ -84,7 +84,7 @@ jQuery(function($) {
     $('#telling').html(
       `貴方がリベシティのどの有名人と似たタイプなのか<br>
       これから出す${questions.length}つの質問への回答で診断します。<br>
-      ※診断結果はジョークです。肖像元の要求により変更・閉鎖するかも。`
+      ※診断結果はジョークです。`
     );
     $('.orientation').fadeIn();
   }, 1200);
