@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>リベキャラ診断</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-title">
+          <h1>リベシティキャラクター診断</h1>
+          <p>※このページは個人の製作物であり、リベ大公式ページではありません</p>
+        </div>
+      </div>
+    </header>
+    <div class="form-wrapper">
+      <div class="container">
+        <div class="orientation">
+          <p id="telling"></p>
+          <button id="first-button">診断をはじめる</button>
+          <p id="loading">問題を読み込んでいます...</p>
+        </div>
+        <div class="question-form">
+          <h1 id="question-number">
+          </h1>
+          <p id="question">
+          </p>
+          <form name="question" id="id_question">
+            <p>
+              <div class="x"></div>
+              <div class="y"></div>
+              <div class="z"></div>
+              <div class="checkform"></div>
+            </p>
+            <p id="error">回答を選択してください</p>
+            <p>
+              <input type="submit" value="回答する" id="answer-button">
+            </p>
+          </form>
+          <div class="point">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="result-wrapper">
+      <div class="container">
+        <div class="result">
+
+        </div>
+      </div>
+    </div>
+        <!-- <div class="firstQuestion">
+          <form name="question" id="id_question">
+            第1問.リベシティの正式名称を答えなさい：<br>
+              <input type="text" name="firstQ" id="id_firstQ">
+            <br>
+            第2問.お金持ちになるために極めるべき5つの力を全てチェックしなさい：<br>
+            <label>
+              <input type="checkbox" id="id_secondQ" value="A1">貯める力
+              </label>
+              <label>
+                <input type="checkbox" id="id_secondQ" value="A2">壊す力
+              </label>
+              <label>
+                <input type="checkbox" id="id_secondQ" value="A3">稼ぐ力
+              </label>
+              <label>
+                <input type="checkbox" id="id_secondQ" value="A4">貢ぐ力
+              </label>
+              <label>
+                <input type="checkbox" id="id_secondQ" value="A5">増やす力
+              </label>
+              <label>
+                <input type="checkbox" id="id_secondQ" value="A6">使う力
+              </label>
+              <label>
+                <input type="checkbox" id="id_secondQ" value="A7">守る力
+              </label>
+              <label>
+                <input type="checkbox" id="id_secondQ" value="A8">学長を崇める力
+              </label>
+              <br>
+              第3問.タルムードの小話で正しいのはどれか？<br>
+              <select name="thirdQ" id="id_thirdQ">
+                <option value="B1">難破船と5人の乗客</option>
+                <option value="B2">魔法のドクロ</option>
+                <option value="B3">七匹の太った豚と七匹の飛べない豚</option>
+                <option value="B4">金の冠をかぶった燕</option>
+                <option value="B5">キツネと蒟蒻畑</option>
+                <option value="B6">正直な仕立て屋</option>
+              </select>
+            <br>
+            <button type="button" onclick="answer()">送信</button>
+          </form> -->
+          <!-- <script src="form.js"></script>
+          <img id="image_place">
+        </div> -->
+
+    <script type="text/javascript" src="questions.js"></script>
+    <script type="text/javascript" src="jquery.js"></script>
+  </body>
+</html>
